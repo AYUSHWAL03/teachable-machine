@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+}
+.title {
+  background: rgb(137, 207, 243, 0.5);
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(
+      0deg,
+      rgb(137, 207, 243, 0.5),
+      rgb(137, 207, 243, 0.5)
+    ),
+    url("/images/data_analysis.jpg"); /* URL to your background image */
+  background-size: cover; /* Scale the image to cover the entire div */
+  background-position: center; /* Center the image horizontally and vertically */
+  background-repeat: no-repeat; /* Don't repeat the image */
+  position: relative; /* Needed if you want to overlay content on top of the background */
+  text-align: center; /* Center the text */
+  font-size: 2rem;
+}
+
+.container {
+  display: flex; /* Create a flex container */
+  flex-direction: column;
+  align-items: center;
+  background-color: #a0e9ff;
+  flex-wrap: nowrap;
+}
+
+.row {
+  display: flex; /* Create a row inside the container */
+  flex-wrap: nowrap; /* Prevent items inside the row from wrapping */
+  margin-bottom: 10px; /* Add margin to separate rows */
+}
+.image-container {
+  flex: 1; /* Distribute available space equally between image and data */
+  max-width: 50%; /* Limit the width of the image container */
+  padding: 3rem; /* Add spacing around the image */
+  padding-left: 10rem;
+}
+
+.image-container img {
+  width: 50%; /* Adjust the image width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.secondimg {
+  padding-left: 50px;
+}
+
+/* .data-container {
+    flex: 1; /* Distribute available space equally between image and data */
+/* padding: 50px; 
+    width: 50%;
+  }*/
+
+.data-container {
+  flex: 1; /* Allow the data container to take remaining space */
+  padding: 50px; /* Add spacing around the data */
+  width: 50%; /* Set the width to match the image container */
+  height: auto; /* Allow height to adjust based on content */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: large;
+}
+
+.model {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #89cff3;
+  /* flex:1;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem; */
+}
+
+.box {
+  width: 250px;
+  padding: 5rem;
+  margin: 5rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #cdf5fd;
+}
+.main {
+  background-color: #89cff3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.data {
+  width: 35%;
+  padding: 20px;
+  /* background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.upload-button {
+  background: #cdf5fd;
+  height: 3rem;
+  width: 10rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  font-size: large;
+  
+}
+.file-input-container {
+  padding-bottom: 2rem;
+  
+}
+
+.preprocess-component {
+  text-align: center;
+}
+
+/* Styles for the headings */
+.heading-1 {
+  font-size: 24px;
+  background-color: #cdf5fd;
+  padding: 30px;
+}
+.heading {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Styles for the checkboxes and labels */
+/* .checkbox-label {
+  display: block;
+  margin: 5px 0;
+} */
+
+.checkbox-label {
+  display: flex; /* Use flexbox for vertical alignment */
+  align-items: center; /* Align items vertically */
+  margin: 15px 90px;
+}
+
+
+/* Styles for the category container */
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #89cff3;
+  height: 50vh;
+}
+
+/* Styles for category divs */
+.category {
+  text-align: center;
+  /* flex: 0 0 calc(33.33% - 10px); */
+  margin: 30px 0;
+ 
+}
+.box2 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #cdf5fd;
+  height: 15rem;
+  width: 20rem;
+}
