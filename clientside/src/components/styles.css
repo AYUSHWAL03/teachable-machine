@@ -41,6 +41,7 @@
   max-width: 50%; /* Limit the width of the image container */
   padding: 3rem; /* Add spacing around the image */
   padding-left: 10rem;
+  mix-blend-mode: multiply;
 }
 
 .image-container img {
