@@ -21,11 +21,12 @@ export const FileInput = () => {
             <label htmlFor="chooseFile" className="upload-button" style={{ padding: 10}}>
               Upload Dataset
             </label><br />
-            <button style={{ marginTop:30 }}>
+            <button style={{ marginTop:30}}>
             <label htmlFor="chooseFile" className="upload-button" style={{ marginTop:25, padding:10}}>
               Generate Dataset Summary
             </label>
             </button>
+            
             
           </div>
         </div>
