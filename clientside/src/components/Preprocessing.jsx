@@ -96,8 +96,13 @@ export const Preprocessing = () => {
           </div>
         </div>
       </div>
-      <div style={{ backgroundColor:'#89cff3', height:'5rem'}}>
+      <div style={{display:"flex", flex:1}}>
+      <div style={{ backgroundColor:'#89cff3', height:'5rem', display:"flex", flex:1, paddingLeft:'30rem'}}>
         <button className="upload-button" >Apply Preprocessing</button>
+      </div>
+      <div style={{ backgroundColor:'#89cff3', height:'5rem', paddingRight:'30rem'}}>
+        <button className="upload-button" >Visuvalize Dataset</button>
+      </div>
       </div>
       <div style={{backgroundColor:'#89cff3',height:'2rem'}}>
         Copyright © group7 LY ISA2
