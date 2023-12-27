@@ -34,3 +34,7 @@ We welcome contributions from the community to enhance and improve Teachable Mac
 
 Contact Us
 If you have any questions, feedback, or concerns, feel free to reach out to us at [ayush.s.walekar03@gmail.com].
+![Screenshot 2023-12-27 110458](https://github.com/AYUSHWAL03/teachable-machine/assets/76579614/a14904e0-bd57-4abd-9748-3321df06253a)
+![Screenshot 2023-12-27 110511](https://github.com/AYUSHWAL03/teachable-machine/assets/76579614/15501da9-2794-457c-b866-78f556fb34ae)
+![Screenshot 2023-12-27 110525](https://github.com/AYUSHWAL03/teachable-machine/assets/76579614/b4fc1880-1a0c-4c43-9740-d3e2276e690d)
+
